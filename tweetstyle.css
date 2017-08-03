@@ -1,0 +1,99 @@
+body{
+	background-color: #e6ecf0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.bird{
+width: 50px;
+}
+.label1{
+	background-image: url("imgs/wall.jpg");
+	padding: 20px;
+	box-shadow: 3px 3px 5px #888888;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; 
+    height: 200px;
+    position: relative;
+}
+#tweet{
+	margin: 20px;
+	width: 460px;
+	border-radius: 10px;
+}
+.label1 img{
+	border-radius: 50%;
+	border: solid 6px #000;
+	position: absolute;
+	width: 170px;
+	margin: 100px 5px 5px 30px;
+	background-color: white;
+	box-shadow: 3px 3px 5px #888888;
+}
+.label2{
+	background-color: white;
+	height: 60px;
+}
+.username{
+	float: left;
+	margin: 50px 20px 20px 23px ;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+.textblock textarea{
+	border-radius: 5px;
+	border: solid 2px black;
+	margin: 20px 38px 10px 38px;
+}
+.textblock{
+	background-color: white;
+	width: 450px;
+	height: 150px;
+	border-top-left-radius: 10px;  
+	border-bottom-right-radius: 20px;
+	box-shadow: 3px 3px 5px #888888;
+	border: solid 2px #5bc0de;
+}
+.textblock button{
+	float: right;
+	margin-right: 14px; 
+
+}
+
+.blockstweet-1 {
+	background-color: white;
+	box-shadow: 3px 3px 5px #888888;
+	border-radius: 5px;
+	border: solid 2px #5bc0de;
+	padding: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.blockstweet-1 p.name {
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+.blockstweet-1 .remove-tweet-icon {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.heart-icon{
+	font-size: 50px;
+}
+.counter-like .output{
+    position: absolute;
+    bottom: 10px;
+    left: 387px;
+}
+.text-tweets p{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.glyphicon-heart{
+	margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 23px;
+}
